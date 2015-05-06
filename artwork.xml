@@ -5,26 +5,5 @@
         <field name="NUM">4</field>
       </block>
     </value>
-    <statement name="DO">
-      <block type="movement_forward" id="41">
-        <next>
-          <block type="movement_right" id="60">
-            <next>
-              <block type="movement_left" id="70">
-                <next>
-                  <block type="robot_delay" id="43" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="50">
-                        <field name="NUM">200</field>
-                      </block>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
   </block>
 </xml>
